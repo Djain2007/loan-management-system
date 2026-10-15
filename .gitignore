@@ -1,0 +1,18 @@
+# Build output
+target/
+out/
+
+# Local JDBC driver (only needed for the no-Maven path)
+lib/*.jar
+
+# Local configuration overrides (contains your DB password)
+/config.properties
+
+# IDE / OS noise
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
